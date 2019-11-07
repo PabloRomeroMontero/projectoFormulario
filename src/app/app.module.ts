@@ -3,17 +3,15 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {LogComponent} from './components/log/log.component';
-import {FormComponent} from './components/form/form.component';
-import {APP_ROUTES, APP_ROUTING} from './app.route';
 import {FormsModule} from '@angular/forms';
-import {RouterModule} from '@angular/router';
+import { DataComponent } from './components/data/data.component';
+import { TemplateComponent } from './components/template/template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogComponent,
-    FormComponent
+    DataComponent,
+    TemplateComponent
   ],
   imports: [
     BrowserModule,
